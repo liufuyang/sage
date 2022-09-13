@@ -227,11 +227,11 @@ linters-settings:
             reason: "More reliably supports protobuf messages."
 
   gofumpt:
-    lang-version: 1.17
+    lang-version: 1.19
     extra-rules: true
 
   gosimple:
-    go: 1.17
+    go: 1.19
 
   lll:
     line-length: 120
@@ -246,15 +246,15 @@ linters-settings:
     for-loops: true
 
   staticcheck:
-    go: 1.17
+    go: 1.19
     checks: [all]
 
   stylecheck:
-    go: 1.17
+    go: 1.19
     checks: [all]
 
   unused:
-    go: 1.17
+    go: 1.19
 
   errorlint:
     # Don't enforce %w to minimize implicit interface leakage.
